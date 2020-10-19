@@ -17,7 +17,7 @@ public class shortname {
 		    result = result+s+".";
 			
 		}
-		//surname
+		//surname or 1 word
 		String a= arr[arr.length-1].substring(0,1);
 		a=a.toUpperCase();
 		a=a+arr[i].substring(1);
